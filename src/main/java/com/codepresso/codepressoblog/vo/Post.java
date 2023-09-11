@@ -9,12 +9,12 @@ public class Post {
     String username;
     Date createdAt;
 
-    public Post(Integer id, String title, String content, String username, Date createdAt) {
+    public Post(Integer id, String title, String content, String username) {
         this.id = id;
         this.title = title;
         this.content = content;
         this.username = username;
-        this.createdAt = createdAt;
+
     }
 
     public Integer getId() {
